@@ -8,7 +8,7 @@ from django.db import models
 from django.db.models.fields.files import FieldFile, ImageFieldFile
 from django.db.models.query import QuerySet
 from model_settings.utils import SettingDict, get_all_related_objects
-from polymorphic.manager import PolymorphicManager
+from polymorphic.managers import PolymorphicManager
 try:
     # for django-polymorphic >= 0.8
     from polymorphic.models import PolymorphicModel
